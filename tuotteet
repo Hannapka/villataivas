@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tuotteet</title>
+		<link rel="stylesheet" href="styles.css">
+    </head>
+	<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href="index.html">Koti</a></li>
+    <li><a class='dropdown-arrow' href='villasukat.html'>Tuotteet</a>
+      <ul class='sub-menus'>
+        
+        <li><a href="villasukat.html">Villasukat</a></li>
+        <li><a href="villapipot.html">Villapipot</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="villataivas.html">Villataivas</a></li>
+    
+    <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+  </ul>
+</nav>
+<p>
+<a href="villasukat.html">Villasukat</a>
+<a href="villapipot.html">Villapipot</a>
+  </body>
+</html>
