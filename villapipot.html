@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Villapipot</title>
+		<link rel="stylesheet" href="styles.css">
+    </head>
+	<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href="index.html">Koti</a></li>
+    <li><a class='dropdown-arrow' href='villasukat.html'>Tuotteet</a>
+      <ul class='sub-menus'>
+        
+        <li><a href="villasukat.html">Villasukat</a></li>
+        <li><a href="villapipot.html">Villapipot</a></li>
+       
+      </ul>
+    </li>
+    <li><a href="villataivas.html">Villataivas</a></li>
+    
+    <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+  </ul>
+</nav>
+    
+	<div id="historia">
+	<h2>Villapipot</h2>
+	<p>Voit tilata villapipon itse valitsemallasi värillä ja mallilla. Hinta vaihtelee koon, 
+	mallin ja materiaalin mukaan. Lähetettyäsi tilauslomakkeen, otan sinuun yhteyttä ja suunnitellaan sukkien toteutus, aikataulu ja maksutapa. <p>
+</div>
+<div class="row">
+  <div class="column left">
+    <h2>Peruspipo aikuiselle</h2>
+    <p><img src="https://cdn.pixabay.com/photo/2021/02/01/05/10/woman-5969384_960_720.jpg" alt="Peruspipo" style="width:400px;"></p>
+	<h2>Peruspipo lapselle</h2>
+	<p><img src="https://cdn.pixabay.com/photo/2015/02/28/00/24/girl-652994_960_720.jpg" alt="Peruspipo" style="width:400px;"></p>
+	<h2>Palmikkopipo aikuiselle</h2>
+	<p><img src="https://cdn.pixabay.com/photo/2017/03/12/00/21/kitten-hat-2136158_960_720.png" alt="Palmikkopipo" style="width:400px;"></p>
+  </div>
+  <div class="column right">
+    <h2>Tilauslomake</h2>
+    <form action="/action_page.php">
+  <label for="fname">Etunimi:</label>
+  <input type="text" id="fname" name="fname" required><br><br>
+  <label for="lname">Sukunimi:</label>
+  <input type="text" id="lname" name="lname" required><br><br>
+ 
+  <label for="email">Sähköpostiosoite:</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="phone">Puhelinnumero</label>
+<input type="tel" id="phone" name="phone" required><br><br>
+<select id="cars" name="cars">
+    <option value="Peruspipo aikuiselle">Peruspipo aikuiselle 20-30€</option>
+    <option value="Kirjoneulepipo aikuiselle">Kirjoneulepipo aikuiselle 20-40€</option>
+    <option value="Palmikkopipo aikuiselle">Palmikkopipo aikuiselle 20-40€</option>
+    <option value="Lasten peruspipo">Lasten peruspipo 15-20€</option>
+	<option value="Lasten kirjoneulepipo">Lasten kirjoneulepipo 20-30€</option>
+  </select><br><br>
+<label for="w3review">Toiveesi sukkien väreistä ja materiaalista</label><br><br>
+<textarea id="w3review" name="w3review" rows="4" cols="80">
+  
+  </textarea>
+  <br><br>
+  
+ 
+ <input type="submit" value="Lähetä tilaus"><br><br>
+</form>
+  </div>
+</div>
+
+
+    </body>
+</html>

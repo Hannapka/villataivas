@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Yhteystiedot</title>
+		<link rel="stylesheet" href="styles.css">
+    </head>
+	<nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href="index.html">Koti</a></li>
+    <li><a class='dropdown-arrow' href='villasukat.html'>Tuotteet</a>
+      <ul class='sub-menus'>
+        
+        <li><a href="villasukat.html">Villasukat</a></li>
+        <li><a href="villapipot.html">Villapipot</a></li>
+       
+      </ul>
+    </li>
+    <li><a href="villataivas.html">Villataivas</a></li>
+    
+    <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+  </ul>
+</nav>
+    
+<div id="historia">
+<h2>Yhteystiedot</h2>
+<br>
+<p>Puhelinnumero 0501234567
+<br>
+Sähköposti villataivas@sähköposti.fi </p>
+<br>
+<br>
+<h2>Yhteydenotto-pyyntö</h2>
+<br>
+ <form action="/action_page.php">
+  <label for="fname">Etunimi:</label>
+  <input type="text" id="fname" name="fname" required><br><br>
+  <label for="lname">Sukunimi:</label>
+  <input type="text" id="lname" name="lname" required><br><br>
+ 
+  <label for="email">Sähköpostiosoite:</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="phone">Puhelinnumero</label>
+<input type="tel" id="phone" name="phone" required><br><br>
+<select id="cars" name="cars">
+    <option value="Olen kiinnostunut tilaamaan sukat">Olen kiinnostunut tilaamaan sukat</option>
+    <option value="Olen kiinnostunut tilaamaan pipon">Olen kiinnostunut tilaamaan pipon</option>
+    <option value="Haluan kysyä aikataulusta ja toimituksesta">Haluan kysyä aikataulusta ja toimituksesta</option>
+    <option value="Muu asia">Muu asia</option>
+	
+  </select><br><br>
+<label for="w3review">Kerro tarkemmin toiveistasi yhteydenottoa koskien</label><br><br>
+<textarea id="w3review" name="w3review" rows="4" cols="80"></textarea>
+<br>
+
+ 
+ <input type="submit" value="Lähetä"><br><br>
+</form>
+
+</div>
+
+    </body>
+</html>
